@@ -171,7 +171,7 @@ def process_alpaca_with_langgraph(input_json_path: str, output_json_path: str, s
 # -------------------------- 5. 执行入口 --------------------------
 if __name__ == "__main__":
     # 替换为你的文件路径
-    INPUT_JSON_PATH = "/Users/liwenyan/Pycharm/agent/alpaca_gpt4_data_zh.json"  # 原始Alpaca中文数据集
+    INPUT_JSON_PATH = "./alpaca_gpt4_data_zh.json"  # 原始Alpaca中文数据集
     OUTPUT_JSON_PATH = "./alpaca_ainon_langgraph.json"  # 改写后的数据集
 
     # 调用LangGraph处理样本（轻量化微调建议sample_limit=500-2000）
